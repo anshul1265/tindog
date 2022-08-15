@@ -1,0 +1,197 @@
+body {
+  font-family: "Montserrat-Light", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Black 900", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* classes and sections  */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* headings  */
+
+.title-heading {
+  font-family: "Montserrat-Black 900", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.title-logo {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* navigation bar  */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title section  */
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* title image  */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.main-iphone-img {
+  position: relative;
+}
+
+/* features section */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-heading-h3 {
+  font-size: 1.5rem;
+}
+
+.feature-class {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section  */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-heading {
+  font-size: 2.3rem;
+  margin: 6% 10% 3%;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin: 0 20px 40px;
+}
+
+/* press section  */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section  */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta section  */
+
+/* footer section  */
+
+.footer-images {
+  margin: 20px 7px;
+  height: 15px;
+}
+
+@media (max-width: 1034px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
